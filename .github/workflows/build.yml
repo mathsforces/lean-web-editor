@@ -9,7 +9,7 @@ on:
   pull_request:
     branches-ignore:
       - 'gh-pages'
-
+  workflow_dispatch:
 jobs:
   build:
     name: build and deploy site
